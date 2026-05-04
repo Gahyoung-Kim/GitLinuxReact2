@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const myNodeGet = () => {
-    axios('http://10.10.20.6:3001')
+    axios('/api')
     .then((res)=>{
       console.log(res)
     })
